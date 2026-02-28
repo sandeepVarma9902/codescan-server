@@ -1,0 +1,27 @@
+{
+  "name": "@cmsgov/qpp-measures-data",
+  "version": "0.0.25",
+  "description": "Quality Payment Program Measures Data Repository",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CMSgov/qpp-measures-data.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/_mocha --colors"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^4.10.0",
+    "csv-parse": "^1.2.0",
+    "commander": "^2.9.0",
+    "lodash": "^4.16.4",
+    "pdf-to-text": "0.0.6",
+    "xml2js": "~0.4.17",
+    "yamljs": "~0.2.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
